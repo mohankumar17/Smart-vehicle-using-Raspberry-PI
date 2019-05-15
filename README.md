@@ -10,6 +10,7 @@ C) Object avoiding
 D) Live feed 
 E) Lane detection with live streaming using OpenCV
 F) Traffic Sign detection(FORWARD,LEFT,RIGHT,STOP) using OpenCV
+G) Web Control with Livefeed
 
 Road Lane and Sign detection is done using Hough Transform technique. The pi camera attached on the top of the car inputs the video frames to raspberry pi. Python code process the frames and detects the lanes and signs using Hough transform technique. 
 
