@@ -1,9 +1,24 @@
 # ROBOT_CAR
 
-For a robot that performs autonomously, the communication between the person and the robot is the most important factor. A significant awareness has been observed regarding the usage of such a technology. This research has a trivial involvement in the development of such robots. Robots that functions fully autonomously should not only complete the jobs that are desired of them but also somehow establish a connection between themselves and the person operating them. A lot of research has been done of these kinds of robot and a lot of work still needs to be done. Keeping this in mind, there should be a capacity in the robot to get information from the surroundings while perusing the required object. The primary goal of our work was to design and fabricate a robot that detects the road lanes, traffic signs and drive the motors to move the car accordingly. A small camera records the video and the processor processes it to extract the desired information from it. Protecting the robot from collision with the object is another problem that needs to be tackled so in order to do this, an ultrasonic sensor is used. All the processing is carried out by the microprocessor while the control of the motors is carried out by the controller.
+For a robot that performs autonomously, the communication between the person and the robot is the most important factor. 
+A significant awareness has been observed regarding the usage of such a technology. This research has a trivial involvement
+in the development of such robots. Robots that functions fully autonomously should not only complete the jobs that are desired
+of them but also somehow establish a connection between themselves and the person operating them. A lot of research has been
+done of these kinds of robot and a lot of work still needs to be done. Keeping this in mind, there should be a capacity in the 
+robot to get information from the surroundings while perusing the required object. The primary goal of our work was to design 
+and fabricate a robot that detects the road lanes, traffic signs and drive the motors to move the car accordingly. A small camera 
+records the video and the processor processes it to extract the desired information from it. Protecting the robot from collision
+with the object is another problem that needs to be tackled so in order to do this, an ultrasonic sensor is used. All the processing
+is carried out by the microprocessor while the control of the motors is carried out by the controller.
 
 # Components Required:
-Raspberry Pi(with python and OpenCV installed), Two IR sensors, Ultrasonic Sensor, Picam.
+Raspberry Pi(with python and OpenCV installed)
+Two IR sensors
+Ultrasonic Sensor
+Picam
+Jumper Wires
+Motor Driver(L293D or L293N)
+DC Motors
 # Prerequisite
 Install opencv : https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/
 Install Picam library: https://projects.raspberrypi.org/en/projects/getting-started-with-picamera
@@ -13,7 +28,8 @@ B) Manual control using telegram -Can be manually controlled using Telegram appl
 C) Object avoiding -Avoids objects and move accordingly
 D) Lane detection with live streaming using OpenCV -Detects and moves according to lanes 
 E) Traffic Sign detection(FORWARD,LEFT,RIGHT,STOP) using OpenCV with Live feed - Detects and moves according to signs
-F) Web Control with Livefeed -Can be controlled using web (refer https://circuitdigest.com/microcontroller-projects/web-controlled-raspberry-pi-surveillance-robot to get better understanding about the function and also install the libraries required) 
+F) Web Control with Livefeed -Can be controlled using web
+(refer https://circuitdigest.com/microcontroller-projects/web-controlled-raspberry-pi-surveillance-robot to get better understanding about the function and also install the libraries required) 
 
 Road Lane and Sign detection is done using Hough Transform technique. The pi camera attached on the top of the car inputs the video frames to raspberry pi. Python code process the frames and detects the lanes and signs using Hough transform technique. 
 
