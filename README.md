@@ -12,15 +12,15 @@ with the object is another problem that needs to be tackled so in order to do th
 is carried out by the microprocessor while the control of the motors is carried out by the controller.
 
 # Components Required:
-Raspberry Pi(with python and OpenCV installed)
-Two IR sensors
-Ultrasonic Sensor
-Picam
-Jumper Wires
-Motor Driver(L293D or L293N)
-DC Motors
+Raspberry Pi(with python and OpenCV installed),
+Two IR sensors,
+Ultrasonic Sensor,
+Picam,
+Jumper Wires,
+Motor Driver(L293D or L293N),
+DC Motors.
 # Prerequisite
-Install opencv : https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/
+Install opencv : https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/ ,
 Install Picam library: https://projects.raspberrypi.org/en/projects/getting-started-with-picamera
 # Robot car functions: 
 A) Line following -Follows the black line
