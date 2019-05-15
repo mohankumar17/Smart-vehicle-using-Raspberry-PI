@@ -3,8 +3,10 @@
 For a robot that performs autonomously, the communication between the person and the robot is the most important factor. A significant awareness has been observed regarding the usage of such a technology. This research has a trivial involvement in the development of such robots. Robots that functions fully autonomously should not only complete the jobs that are desired of them but also somehow establish a connection between themselves and the person operating them. A lot of research has been done of these kinds of robot and a lot of work still needs to be done. Keeping this in mind, there should be a capacity in the robot to get information from the surroundings while perusing the required object. The primary goal of our work was to design and fabricate a robot that detects the road lanes, traffic signs and drive the motors to move the car accordingly. A small camera records the video and the processor processes it to extract the desired information from it. Protecting the robot from collision with the object is another problem that needs to be tackled so in order to do this, an ultrasonic sensor is used. All the processing is carried out by the microprocessor while the control of the motors is carried out by the controller.
 
 # Components Required:
-Raspberry Pi(with python and OpenCV installed), Two IR sensors, Ultrasonic Sensor, Picam
+Raspberry Pi(with python and OpenCV installed), Two IR sensors, Ultrasonic Sensor, Picam.
+# Prerequisite
 Install opencv : https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/
+Install Picam library: https://projects.raspberrypi.org/en/projects/getting-started-with-picamera
 # Robot car functions: 
 A) Line following -Follows the black line
 B) Manual control using telegram -Can be manually controlled using Telegram application
