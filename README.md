@@ -4,7 +4,7 @@ For a robot that performs autonomously, the communication between the person and
 
 # Components Required:
 Raspberry Pi(with python and OpenCV installed), Two IR sensors, Ultrasonic Sensor, Picam
-
+Install opencv : https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/
 # Robot car functions: 
 A) Line following -Follows the black line
 B) Manual control using telegram -Can be manually controlled using Telegram application
