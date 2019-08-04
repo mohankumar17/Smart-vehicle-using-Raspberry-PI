@@ -1,4 +1,4 @@
-# ROBOT_CAR
+# ROBOT_CAR USING RASPBERRY PI , COMPUTER VISION(OPENCV) AND IOT
 
 For a robot that performs autonomously, the communication between the person and the robot is the most important factor. 
 A significant awareness has been observed regarding the usage of such a technology. This research has a trivial involvement
